@@ -1,0 +1,18 @@
+body
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonClass
+{
+    background-color: green;
+    color: white;
+}
+
+form
+{
+    border: 2px solid black;
+    margin: 0px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Wishlist</title>
+    <link href="styles/index.css" rel="stylesheet">
+</head>
+<body>
+
+    
+    <form action="/summary" method="post">             <!-- Start of Form -->
+
+        <!--Start of Book Title -->
+        <div class="bookTitle">
+            <label> Book Title <br> <input type="text" name="bookTitle"> </label>
+        </div>
+        <!--End of Book Title -->
+
+        <!-- Start of Comments -->
+        <div class="comments">
+            <label> Comments <br> <textarea name="comments"></textarea></label>
+        </div>
+        <!-- End of Comments -->
+
+        <!-- Start of Rating -->
+        <div class="rating">
+            <label> Rating </label>
+            <br>
+            <select name="rating">
+                <option value="" disabled selected> Please Select </option>
+                <option value="1"> 1 star </option>
+                <option value="2"> 2 star </option>
+                <option value="3"> 3 star </option>
+                <option value="4"> 4 star </option>
+                <option value="5"> 5 star </option>
+            </select>
+        </div>
+        <!-- End of Rating -->
+
+        <!-- Start of Submit Button -->
+         <br>
+         <button class="buttonClass" href="#" role="button"> Submit </button>
+        <!-- End of Submit Button -->
+
+    </form>                                              <!-- End of Form -->
+
+
+</body>
+</html>
