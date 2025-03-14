@@ -34,6 +34,7 @@ app.post('/summary', (req, res) => {
 
     orders.push(order);
 
+<<<<<<< HEAD
     res.send(
         `
         <h1> Book Details Submitted! </h1>
@@ -47,6 +48,13 @@ app.post('/summary', (req, res) => {
     res.render('/summary', {orders})
     
 
+=======
+    res.redirect('/summary');
+})
+
+app.get('/summary', (req, res) => {
+    res.render('summary', {orders});
+>>>>>>> ab6438c (Went home and figured out how easy it was, feel dumb)
 })
 
 
